@@ -1,0 +1,19 @@
+{
+  "name": "lucidoc",
+  "version": "0.1.0",
+  "description": "明晰で「伝わる」ドキュメントを書くための Claude Code スキル集。読み手選定からテーマ分解・アウトライン・文章・文の推敲、成果物のレビューと自動修正までを一貫した手順にまとめる。",
+  "author": {
+    "name": "sogengineer",
+    "email": "sogen0921@icloud.com"
+  },
+  "homepage": "https://github.com/sogengineer/lucidoc",
+  "repository": "https://github.com/sogengineer/lucidoc",
+  "license": "MIT",
+  "keywords": [
+    "documentation",
+    "writing",
+    "technical-writing",
+    "review",
+    "design-doc"
+  ]
+}

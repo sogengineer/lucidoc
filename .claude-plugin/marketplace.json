@@ -1,0 +1,19 @@
+{
+  "name": "lucidoc",
+  "owner": {
+    "name": "sogengineer",
+    "email": "sogen0921@icloud.com"
+  },
+  "plugins": [
+    {
+      "name": "lucidoc",
+      "source": "./",
+      "description": "明晰で「伝わる」ドキュメントを書くための Claude Code スキル集（ドキュメント作成・レビュー自動修正・機能設計書）。",
+      "tags": [
+        "documentation",
+        "writing",
+        "review"
+      ]
+    }
+  ]
+}
