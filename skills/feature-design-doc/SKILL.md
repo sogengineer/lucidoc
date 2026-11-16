@@ -1,6 +1,6 @@
 ---
 name: feature-design-doc
-description: "複数システムにまたがる機能追加・改修の設計書を作成するスキル。調査→実現可能性判定→AskUserで設計判断収集→設計書作成→セルフチェック（理解度検証＋ギャップ検出の2フェーズ）の5ステップで進める。成果物は Markdown ファイル（概要 / 解決する問題 / ASIS-TOBE / mermaid処理フロー / ISO 25010テストケース）。最後に複数の独立サブエージェントが設計書を初見で読み、理解の一致（Phase 1）と仕様の抜け漏れ（Phase 2）の両方を検証する。Use when user says '設計書を書いて', '設計書作成', 'design doc', '詳細設計', '機能設計', or 要件説明の後に '設計して'."
+description: "複数システムにまたがる機能追加・改修の設計書を作成するスキル。調査→実現可能性判定→AskUserで設計判断収集→設計書作成→セルフチェック（理解度検証＋ギャップ検出の2フェーズ）の5ステップで進める。成果物は Markdown ファイル（概要 / 解決する問題 / ASIS-TOBE / mermaid処理フロー / ISO 25010テストケース）。最後に複数の独立サブエージェントが設計書を初見で読み、理解の一致（Phase 1）と仕様の抜け漏れ（Phase 2）の両方を検証する。Use when user says '設計書を書いて', '設計書作成', 'design doc', '詳細設計', '機能設計', or 要件説明の後に '設計して'. Do NOT use for: 機能設計以外の文書（マニュアル・手順書・README・PR 説明文など）は [[clear-document-writing]]、書き上がった文書のレビュー修正だけなら [[doc-review-fix]] / [[doc-review-fix-loop]] を使う。"
 ---
 
 ## Instructions
