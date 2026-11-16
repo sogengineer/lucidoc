@@ -24,6 +24,7 @@ lucidoc/
     ├── clear-document-writing/    # ドキュメント作成（6ステップ）
     │   ├── SKILL.md               # ワークフロー＋原則（本体）
     │   └── references/            # 実行時に Read する詳細資料
+    │       ├── explanation-patterns.md  # 章・パラグラフの中身の組み方（伝わる説明の型）
     │       ├── sentence-refinement.md   # 文の推敲・図表化の基準と実例
     │       └── common-failures.md       # よくある失敗チェックリスト（白箱ルーブリック兼用）
     ├── doc-review-fix/            # レビュー＆自動修正（1パス）
