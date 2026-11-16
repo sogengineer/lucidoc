@@ -1,6 +1,6 @@
 {
   "name": "lucidoc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "明晰で「伝わる」ドキュメントを書くための Claude Code スキル集。読み手選定からテーマ分解・アウトライン・文章・文の推敲、成果物のレビューと自動修正までを一貫した手順にまとめる。",
   "author": {
     "name": "sogengineer",

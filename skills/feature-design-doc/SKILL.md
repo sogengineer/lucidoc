@@ -224,6 +224,8 @@ Agent prompt テンプレート:
 
 [[clear-document-writing]] が配置されている環境では、Step 4 の執筆時にその `references/sentence-refinement.md` を Read し、文レベルの詳細基準と改善前→改善後の実例を適用する（配置されていなければ上の5項目で足りる）。
 
+書き終えた散文は yomiyasu スキルにかけて推敲する。呼び出す名前は、Claude Code にプラグインで導入した場合は `yomiyasu:yomiyasu`、それ以外は `yomiyasu`。推敲で事実・数値・条件・固有名・「要確認」の印が変わっていたら、その箇所は推敲前に戻す。推敲結果は設計書そのものに反映する（yomiyasu の手順どおり最終稿を作業用の別ファイルに作ってよいが、確認後に設計書へ書き戻す）。yomiyasu の規則とこのスキルの指示がぶつかる場合は、このスキルを優先する。yomiyasu が使えない環境では止まらず、上の5項目（と `sentence-refinement.md`）だけで進め、「yomiyasu 未使用（理由）」を報告に残す。
+
 ---
 
 ### 抽象度の全体指針
