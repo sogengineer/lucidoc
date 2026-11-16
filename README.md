@@ -74,6 +74,34 @@ cp -r lucidoc/skills/clear-document-writing \
 
 更新を配布するときは `.claude-plugin/plugin.json` の `version` を上げてコミットしてください（`version` を固定したまま新しいコミットを push しても利用者には更新が届きません）。
 
+## 推奨する併用スキル: yomiyasu
+
+[yomiyasu](https://github.com/nanaism/yomiyasu) が導入されていなければ、あわせて導入してください。yomiyasu は、意味と条件を保ったまま日本語を読みやすく整える推敲スキルです。lucidoc は次の工程で、書いた・直した日本語を yomiyasu にかけます。
+
+- `clear-document-writing` の Step 5（文を書く）
+- `doc-review-fix` の修正適用（`doc-review-fix-loop` からも同じ）
+- `feature-design-doc` の設計書の散文
+
+yomiyasu が無くても lucidoc は止まりません。その場合は lucidoc 内の推敲基準だけで進め、「yomiyasu 未使用」を報告に残します。
+
+Claude Code（プラグインとして導入）:
+
+```bash
+# 1. マーケットプレイスを登録（初回のみ）
+/plugin marketplace add nanaism/yomiyasu
+
+# 2. プラグインをインストール
+/plugin install yomiyasu@yomiyasu
+```
+
+Codex（GitHub CLI の `gh skill` で導入）:
+
+```bash
+gh skill install nanaism/yomiyasu yomiyasu --agent codex
+```
+
+導入方法によってスキル名が変わります。Claude Code のプラグインでは `yomiyasu:yomiyasu`、それ以外（Codex など）では `yomiyasu` です。lucidoc はどちらの名前でも呼べるように書いてあります。ほかの導入方法は yomiyasu の README を参照してください。
+
 ## ライセンス
 
 [MIT License](./LICENSE) © 2026 sogengineer
